@@ -211,9 +211,20 @@ color: #434455;
   background-color:#2e2f42;;
 }
 
+.logo .footer-logo {
+  font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
 .footer-logo .logo-part {
 color: #f4f4fd;
 }
+
+
 
 .footer-text {
   font-weight: 400;
