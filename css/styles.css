@@ -2,10 +2,6 @@
 <!------------------font-family: "Roboto", sans-serif;-------------------->
 
 
-* {
-  text-decoration: none;
-  list-style: none;
-}
 
 body {
  font-family: "Roboto", sans-serif;
@@ -24,15 +20,8 @@ text-decoration: none;
 <!--------------------------header--------------------------->
 
 
-.page-header { 
-
-}
-
-.header-nav {
-
-}
-
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -74,7 +63,7 @@ color: #434455;
 .nav-link:focus,
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf;;
+  color: #404bbf;
 }
 
 <!----------------------------hero------------------------>
@@ -85,7 +74,6 @@ color: #434455;
 
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -96,12 +84,12 @@ color: #fff;
 
 
 .hero-button {
-  font-family: inherit;
-  font-weight: 500;
+font-family: inherit;
+font-weight: 500;
+background-color: #4d5ae5;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-background-color: #4d5ae5;
 color: #fff;
 cursor: pointer;
 }
@@ -164,9 +152,7 @@ text-transform: capitalize;
 
 <!---------------------------------Portfolio--------------------------------------->
 
-.portfolio {
 
-}
 
 .title-portfolio {
   font-weight: 700;
@@ -189,20 +175,20 @@ color: #2e2f42;
 
 .application-text {
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 
 
 .page-footer {
-  background-color:#2e2f42;;
+  background-color:#2e2f42;
 }
 
 
 .footer-text {
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
