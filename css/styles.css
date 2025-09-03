@@ -13,14 +13,11 @@ body {
  background-color: #ffffff;
 }
 
-ul,ol{
-  list-style-type: none;
+.page-header {  
+ background: #fff;
+ border-bottom-style: solid;
+ border-bottom-color: #e7e9fc;
 }
-
-a {
-  text-decoration: none; 
-}
-
 
 .logo .header-logo {
   font-family: "Raleway", sans-serif;
