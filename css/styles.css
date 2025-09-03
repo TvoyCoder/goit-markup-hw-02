@@ -13,15 +13,27 @@ body {
  background-color: #fff;
 }
 
-.page-header {  
- background: #fff;
- border-bottom-style: solid;
- border-bottom-color: #e7e9fc;
+ul, ol {
+list-style: none;
 }
 
-.logo .header-logo {
-  font-family: "Raleway", sans-serif;
-font-weight: 700;
+a {
+text-decoration: none;
+}
+
+<!--------------------------header--------------------------->
+
+
+.page-header { 
+
+}
+
+.header-nav {
+
+}
+
+.logo {
+  font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -29,29 +41,19 @@ text-transform: uppercase;
 color: #4d5ae5;
 }
 
-.logo .header-logo:hover,
-.logo .header-logo:focus {
-  font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #404bbf;
-}
 
 .header-logo .logo-part {
- font-weight: 700;
-font-size: 18px;
-line-height: 1.16667;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color: #2e2f42;
 }
 
+.footer-logo .logo-part {
+color: #f4f4fd;
+}
 
 .nav-link {
   font-weight: 500;
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
@@ -60,12 +62,13 @@ color: #2e2f42;
   font-style: normal;
 }
 
-.address-link {
-font-size: 16px;
-line-height: 150%;
+.address-list {
+  font-size: 16px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
 
 .nav-link:hover,
 .nav-link:focus,
@@ -74,6 +77,7 @@ color: #434455;
   color: #404bbf;;
 }
 
+<!----------------------------hero------------------------>
 
 .section-hero {
   background: #2e2f42;
@@ -84,7 +88,7 @@ color: #434455;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 font-size: 56px;
-line-height: 101%;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -92,16 +96,20 @@ color: #fff;
 
 
 .hero-button {
- font-weight: 500;
+  font-family: inherit;
+  font-weight: 500;
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.04em;
-background: #4d5ae5;
+background-color: #4d5ae5;
 color: #fff;
 cursor: pointer;
 }
 
-
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
 
 
 .feature {
@@ -118,15 +126,14 @@ cursor: pointer;
 .feature-title {
   font-weight: 500;
 font-size: 20px;
-line-height: 120%;
+line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
 .feature-text {
-  font-weight: 400;
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
@@ -139,10 +146,11 @@ background: #f4f4fd;
 .section-title {
   font-weight: 700;
 font-size: 36px;
-line-height: 110%;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .team-list {}
@@ -154,29 +162,10 @@ color: #2e2f42;
 }
 
 
-.team-person {
-  font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-}
-
-
-.team-text {
-  font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #434455;
-}
-
 <!---------------------------------Portfolio--------------------------------------->
 
 .portfolio {
-background-color: #fff;
+
 }
 
 .title-portfolio {
@@ -185,30 +174,20 @@ font-size: 36px;
 line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
-text-transform: capitalize;
 color: #2e2f42;
 }
 
-.portfolio-list {
-background-color: #fff;
-}
-
-.portfolio-item {
-text-align: center;
-background-color: #ffffff;
-}
 
 .application {
   font-weight: 500;
 font-size: 20px;
-line-height: 120%;
+line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
 
 .application-text {
-  font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
@@ -221,14 +200,7 @@ color: #434455;
 }
 
 
-.footer-logo .logo-part {
-color: #f4f4fd;
-}
-
-
-
 .footer-text {
-  font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
