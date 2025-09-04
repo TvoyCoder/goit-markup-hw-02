@@ -83,6 +83,7 @@ color: #434455;
 <!----------------------------hero------------------------>
 
 .section-hero {
+  background-color: #2e2f42;
 }
 
 
@@ -98,7 +99,6 @@ color: #434455;
 
 
 .hero-button {
-  font-family: inherit;
    background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
