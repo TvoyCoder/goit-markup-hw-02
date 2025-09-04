@@ -21,13 +21,13 @@ text-decoration: none;
 
 
 .logo {
-  font-family: "Raleway", sans-serif;
+ font-family: "Raleway", sans-serif;
   font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 
@@ -69,29 +69,29 @@ color: #434455;
 <!----------------------------hero------------------------>
 
 .section-hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 
 .hero-title {
   font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
+   font-size: 56px;
+   line-height: 1.07;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #fff;
 }
 
 
 .hero-button {
-font-family: inherit;
-font-weight: 500;
-background-color: #4d5ae5;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
-cursor: pointer;
+  font-family: inherit;
+   background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -153,15 +153,6 @@ text-transform: capitalize;
 <!---------------------------------Portfolio--------------------------------------->
 
 
-
-.title-portfolio {
-  font-weight: 700;
-font-size: 36px;
-line-height: 111%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-}
 
 
 .application {
