@@ -135,15 +135,23 @@ color: #434455;
 background: #f4f4fd;
 }
 
+.section-title {
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: #2e2f42;
+}
 
 .title-portfolio {
   font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-letter-spacing: 0.02em;
 text-align: center;
-color: #2e2f42;
+letter-spacing: 0.02em;
 text-transform: capitalize;
+color: #2e2f42;
 }
 
 .team-list {}
